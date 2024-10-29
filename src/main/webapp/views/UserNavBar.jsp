@@ -10,7 +10,7 @@
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item"><a class="nav-link text-white" href="/admin"><i class="fas fa-user-shield"></i> Admin</a></li>
-            <li class="nav-item"><a class="nav-link text-white" href="/donor"><i class="fas fa-hand-holding-heart"></i> Donor</a></li>
+            <li class="nav-item"><a class="nav-link text-white" href="/login"><i class="fas fa-hand-holding-heart"></i> Donor</a></li>
             <li class="nav-item"><a class="nav-link text-white" href="/logistics"><i class="fas fa-truck"></i> Logistics</a></li>
             <li class="nav-item"><a class="nav-link text-white" href="/about"><i class="fas fa-info-circle"></i> About Us</a></li>
             <li class="nav-item"><a class="nav-link text-white" href="/contact"><i class="fas fa-envelope"></i> Contact</a></li>

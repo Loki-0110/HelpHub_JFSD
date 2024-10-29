@@ -1,7 +1,8 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <%@ taglib uri="jakarta.tags.core" prefix="c" %>
-<%@ include file="UserNavBar.jsp" %>
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <title>HelpHub</title>
@@ -22,17 +23,19 @@
         }
         /* Optional: Adjusting card text color for readability */
         .card-body {
-            color: #212529; /* Default Bootstrap text color */
+            color: #212529;
+             min-height: 200px; /* Default Bootstrap text color */
         }
     </style>
 </head>
 <body>
+     <%@ include file="UserNavBar.jsp" %>
     <!-- Header Section -->
     <header class="header py-4">
         <div class="container text-center">
             <h1>Welcome to HelpHub</h1>
             <p>Your platform to donate essentials and improve lives, especially during emergencies.</p>
-            <a href="donate.jsp" class="btn btn-primary">Donate Now</a> <!-- Changed button color for contrast -->
+            <a href="/login" class="btn btn-primary">Donate Now</a> <!-- Changed button color for contrast -->
         </div>
     </header>
 
@@ -90,7 +93,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Disaster Relief Fund</h5>
                             <p class="card-text">Assist communities affected by natural disasters through donations, shelter, and recovery efforts.</p>
-                            <a href="donate.jsp" class="btn btn-primary">Contribute</a>
+                            <a href="/login" class="btn btn-primary">Contribute</a>
                         </div>
                     </div>
                 </div>
@@ -100,7 +103,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Back-to-School Supplies Drive</h5>
                             <p class="card-text">Collect school supplies for underprivileged children to ensure they have the tools they need for education.</p>
-                            <a href="donate.jsp" class="btn btn-primary">Contribute</a>
+                            <a href="/login" class="btn btn-primary">Contribute</a>
                         </div>
                     </div>
                 </div>
@@ -110,7 +113,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Food Drive Campaign</h5>
                             <p class="card-text">Organize a food drive to collect non-perishable food items for local food banks.</p>
-                            <a href="donate.jsp" class="btn btn-primary">Contribute</a>
+                            <a href="/login" class="btn btn-primary">Contribute</a>
                         </div>
                     </div>
                 </div>
@@ -119,6 +122,7 @@
     </section>
     
     <!-- Success Stories Section -->
+    <!--  
     <section class="success-stories my-5">
         <div class="container">
             <h2 class="text-center">Success Stories</h2>
