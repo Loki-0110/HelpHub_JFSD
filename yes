@@ -1,0 +1,48 @@
+[33mcommit 77c803b1644117cb01a0f56f615b84e1834137eb[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Merge: 3f7270d d742484
+Author: Lokesh <chandralokesh1102004@gmail.com>
+Date:   Fri Dec 6 18:29:05 2024 +0530
+
+    Merge branch 'main' of https://github.com/Loki-0110/HelpHub_JFSD
+
+[33mcommit 3f7270db393256445400530188406f65345d0ce3[m
+Author: Lokesh <chandralokesh1102004@gmail.com>
+Date:   Fri Dec 6 18:28:25 2024 +0530
+
+    Updated HelpHub project with new changes
+
+[33mcommit d7424841e74d5b54519e0ff60d3f334f3fb31f95[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: Lokesh Chowdary <149861382+Loki-0110@users.noreply.github.com>
+Date:   Sat Nov 2 17:41:39 2024 +0530
+
+    Update README.md
+
+[33mcommit aa6dfb01ab0ac2a4e47862219168f52f16ec9dc2[m
+Author: Lokesh Chowdary <149861382+Loki-0110@users.noreply.github.com>
+Date:   Sat Nov 2 17:40:59 2024 +0530
+
+    Update README.md
+
+[33mcommit e84fab26264e3977b2359ed0318109ae371e3da9[m
+Author: Lokesh Chowdary <149861382+Loki-0110@users.noreply.github.com>
+Date:   Sat Nov 2 17:40:11 2024 +0530
+
+    Create README.md
+
+[33mcommit 9a7b3a4a6ec2f3ba6001c1e42cbe1ac21cfc5c93[m
+Author: Lokesh <chandralokesh1102004@gmail.com>
+Date:   Sat Nov 2 00:06:36 2024 +0530
+
+    Updated Project
+
+[33mcommit 8ccdf7ce6cc82b49912e33ad6e7ef335e3ace15c[m
+Author: Lokesh <chandralokesh1102004@gmail.com>
+Date:   Tue Oct 29 14:38:13 2024 +0530
+
+    Add .gitattributes to manage line endings
+
+[33mcommit 696c4649faa1f8a94debe3e39fbd35e5988e4338[m
+Author: Sdp3068 <chandralokesh1102004@gmail.com>
+Date:   Mon Oct 28 18:25:02 2024 +0530
+
+    First commit
