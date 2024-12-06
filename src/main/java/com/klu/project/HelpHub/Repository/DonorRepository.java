@@ -5,7 +5,7 @@ import org.springframework.data.jpa.repository.Query;
 
 import com.klu.project.HelpHub.Model.Donor;
 
-public interface DonorRepository extends JpaRepository<Donor, Integer>{
+public interface DonorRepository extends JpaRepository<Donor, Long>{
 
 	
 	@Query("select d from Donor d where d.email=?1  and d.password=?2")

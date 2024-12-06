@@ -44,16 +44,6 @@
                                             </div>
                                         </div>
 
-                                        <!-- Remember Me Checkbox -->
-                                        <!-- 
-                                        <div class="form-check d-flex justify-content-center align-items-center mb-4">
-                                            <input class="form-check-input me-2" type="checkbox" id="rememberMe" name="rememberMe">
-                                            <label class="form-check-label ms-1" for="rememberMe">
-                                               Remember Me
-                                            </label>
-                                        </div>
-                                        
-
                                         <!-- Submit Button -->
                                         <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
                                             <button type="submit" class="btn btn-secondary btn-md">Log In</button>
@@ -79,9 +69,26 @@
         </div>
     </section>
 
+    <!-- Success Message Popup -->
+    <c:if test="${not empty registrationSuccess}">
+        <div id="successPopup" class="alert alert-success" role="alert" style="position: fixed; top: 20px; right: 20px; z-index: 1000; display: block;">
+            <strong>Success!</strong> Registration was successful. You can now log in.
+        </div>
+    </c:if>
+
     <!-- Bootstrap JS and dependencies -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Optional JavaScript to auto-hide the popup -->
+    <script>
+        $(document).ready(function() {
+            // Automatically hide the success message after 3 seconds
+            setTimeout(function() {
+                $("#successPopup").hide();
+            }, 2000);
+        });
+    </script>
 </body>
 </html>
